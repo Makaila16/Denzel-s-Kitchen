@@ -1,0 +1,88 @@
+body {
+  background-color:mintcream;
+    
+}
+p {
+  color: #e9b0e9;
+  font-family:verdana;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: cursive;
+  color: #ffcbe5;
+}
+
+h2 {
+  font-family: cursive;
+  color: #ffdea2;
+}
+
+h4 {
+  font-family: cursive;
+  color: #aad8ff;
+}
+
+li {
+  font-family: verdana;
+  color: #adffad;
+}
+
+h6 {
+  text-align: right;
+  color: #d7d2ff;
+}
+
+/* image style */
+.img {
+  display:flex;
+  float:right;
+  margin: 10px;
+  border-color: #ffeb9a;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  height: 150px;
+  justify-content:flex-end;
+  
+  }
+.Intro {
+  border-style:solid;
+  border-width:4px;
+  border-color:#d4ff95; 
+}
+.Denzel{
+  display:flex;
+  border-style: solid;
+  border-width:4px;
+  border-color:#b9e9ff;
+}
+.gallery {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  flex-grow: 1;
+  margin: 20px;
+  border-color: #ffffa8;
+  border-style: solid
+}
+.recipes {
+  flex-grow: 1;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.image {
+  display:flex;
+  float:right;
+  margin: 10px;
+  border-color:#beffe1;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 1px; 
+  height: 280px;
+  justify-content:flex-end;
+}
+  
+  
